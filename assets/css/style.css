@@ -120,6 +120,12 @@ h1 {
 
 .navigation span {
   font-size: 20px;
+  color: #fff;
+}
+
+.navigation a:hover {
+  text-decoration: none;
+  text-shadow: 0 0 5px rgb(214, 145, 170);
 }
 
 /* =============================================================
@@ -210,6 +216,17 @@ h1 {
   cursor: pointer;
 }
 
+#home-sec .teammate-info {
+  margin-top: 25px;
+  font-size: 16px;
+  list-style: none;
+}
+
+#home-sec .teammate-info li {
+  margin-bottom: 5px;
+  list-style: none;
+}
+
 .icon-round:hover {
   background-color: rgb(255,15,101);
 }
@@ -217,18 +234,7 @@ h1 {
 .icon-round-active {
   background-color: rgb(255,15,101);
 }
-/* =============================================================
-  ABOUT SECTION STYLES
- ============================================================ */
 
-
-#about-sec .social-icon {
-  padding: 10px 0px 30px 0px;
-}
-
-#about-sec .social-icon a > img {
-  padding: 5px;
-}
 /* =============================================================
   SKILL SECTION STYLES ( easy-pie-chart css)
  ============================================================ */
@@ -635,6 +641,30 @@ span.round-tabs.five {
 #hire-sec .form-control {
   background-color: transparent;
 }
+
+#hire-sec p {
+  padding: 0;
+}
+
+#hire-sec .contact-box {
+  width: 290px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+#hire-sec .contact {
+  width: 80px;
+  display: inline-block;
+  text-align: right;
+  weight: 700;
+}
+
+#hire-sec .wechat {
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+
 /*=====================================
   FOOTER STYLES
     ===================================*/
