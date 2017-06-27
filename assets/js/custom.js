@@ -6,7 +6,7 @@
 
     100% Free To use For Personal And Commercial Use.
     IN EXCHANGE JUST GIVE US CREDITs AND TELL YOUR FRIENDS ABOUT US
-   
+
     ========================================================  */
 
 (function ($) {
@@ -16,7 +16,7 @@
         main_fun: function () {
 
             /*====================================
-             EASING PLUGIN SCRIPTS 
+             EASING PLUGIN SCRIPTS
             ======================================*/
             $(function () {
                 $('.move-me a').bind('click', function (event) { //just pass move-me in design and start scrolling
@@ -28,9 +28,9 @@
                 });
             });
             /*====================================
-            SKILL CHART SCRIPTS 
+            SKILL CHART SCRIPTS 技能图表，未用上
            ======================================*/
-            $(function () {
+            /*$(function () {
                 $('.chart').easyPieChart({
                     easing: 'easeOutBounce',
                     onStep: function (from, to, percent) {
@@ -41,32 +41,32 @@
                     size: 150, //WIDTH - HEIGHT OF SKILL CHART(SHOULD BE IN SQUARE)
                 });
 
-            });
+            });*/
             /*====================================
-           DOWNLOAD RESUME SECTION TOOL TIP SCRIPTS 
+           DOWNLOAD RESUME SECTION TOOL TIP SCRIPTS
           ======================================*/
             $(function () {
                 $('a[title]').tooltip();
             });
             /*====================================
-       TESTIMONIAL SECTION SCRIPTS 
+       TESTIMONIAL SECTION SCRIPTS 客户说的图片滚动，未用
        ======================================*/
-            $('#testimonial-main').carousel({
+            /*$('#testimonial-main').carousel({
                 interval: 4000 //TIME IN MILLI SECONDS
-            })
+            })*/
             /*====================================
-          PRETTYPHOTO FUNCTION
+          PRETTYPHOTO FUNCTION 图片弹框，未用上
           ======================================*/
 
-            $("a.preview").prettyPhoto({
+            /*$("a.preview").prettyPhoto({
                 social_tools: false
-            });
+            });*/
             /*====================================
-             WOW PLUGIN SCRIPTS 
+             WOW PLUGIN SCRIPTS
             ======================================*/
             new WOW().init();
-        
-	
+
+
             /*====================================
             WRITE YOUR SCRIPTS HERE
             ======================================*/

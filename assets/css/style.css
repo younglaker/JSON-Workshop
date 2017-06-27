@@ -111,7 +111,7 @@ h1 {
 .navigation .overlay {
   position: fixed;
   margin: 0 auto;
-  padding: 15px 0;
+  /*padding: 15px 0;*/
   left: 0;
   right: 0;
   background: #333;
@@ -122,10 +122,30 @@ h1 {
   font-size: 20px;
   color: #fff;
 }
+.navigation a {
+  color: #eee;
+  font-size: 16px;
+}
 
 .navigation a:hover {
   text-decoration: none;
   text-shadow: 0 0 5px rgb(214, 145, 170);
+}
+
+.navbar-toggle {
+  background: rgb(255, 87, 147);
+}
+.navbar-toggle .icon-bar {
+  background: #fff;
+}
+.navigation .nav {
+  width: 100%;
+}
+.navbar {
+  margin-bottom: 0;
+}
+.nav>li>a:hover, .nav>li>a:focus {
+  background-color: #eee;
 }
 
 /* =============================================================
@@ -554,7 +574,7 @@ span.round-tabs.five {
   font-size: 20px;
 }
 
-#portfolio-sec .col-xs-12.col-sm-4.col-md-3 {
+#portfolio-sec .col-xs-12.col-sm-4.col-md-4 {
   padding: 0;
 }
 
