@@ -581,7 +581,7 @@ span.round-tabs.five {
 .portfolio-sec-wrap {
   position: relative;
   cursor: pointer;
-  border: 1px solid #989797;
+  border: 1px solid rgba(152, 151, 151, 0.36);
 }
 
 #portfolio-sec a:hover {
@@ -681,6 +681,7 @@ span.round-tabs.five {
 }
 
 #hire-sec .wechat {
+  background: #fff;
   border-radius: 5px;
   margin-bottom: 10px;
 }
