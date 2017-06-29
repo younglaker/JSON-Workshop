@@ -71,8 +71,9 @@
             WRITE YOUR SCRIPTS HERE
             ======================================*/
 
-
-
+            var today = new Date();
+            var year = today.getFullYear();
+            $('.copyright').text('© ' + year + ' All Rights Reserved');
 
 
         },
